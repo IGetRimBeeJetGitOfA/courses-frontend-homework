@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+.header, .main{
+    width: 1062px;
+    margin: 0 auto;
+}
+.header{
+    height: 675px;
+    background-image: url(../images/cover-image.png);
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.header__title{
+    display: inline;
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.header__tabs{
+    list-style: none;
+    color: #626262;
+    font-size: 14px;
+    font-family: Arial;
+    margin: 0px; 
+    text-transform: uppercase;
+    float: right;
+
+}
+.header__tabs-item{
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 15px;
+}
