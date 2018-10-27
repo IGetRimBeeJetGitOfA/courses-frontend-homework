@@ -13,7 +13,7 @@ body{
 }
 .header__title{
     display: inline;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     font-size: 30px;
     letter-spacing: 6px;
     margin: 0;
@@ -23,10 +23,11 @@ body{
     list-style: none;
     color: #626262;
     font-size: 14px;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: auto 0; 
     text-transform: uppercase;
     width: 910px;
+    padding: 0;
     text-align: right;
     display: inline-block;
 }
@@ -46,14 +47,7 @@ body{
 .main__content-post{
     width: 654px;
     font-size: 14px;
-}
-
-.main__content-image{
-    max-width: 661px;
-    max-height: 497px;
-    margin: 160px 0 45px 0;
-    
-
+    margin-bottom: 300px;
 }
 .pre-title{
     text-transform: uppercase;
@@ -67,22 +61,79 @@ body{
     font-size: 30px;
     font-weight: 500;
 }
-.text{
-    color: #626262;
-    margin: 0;
-    
+.main__content-image{
+    max-width: 661px;
+    max-height: 600px;
+    margin: 20px 0 40px 0;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
 }
 
+.text{
+    color: #626262;
+    margin: 0;    
+}
 .main__content-sidebar{
     width: 270px;
     margin-left: 50px;
-    font-size: 12px;
 }
-.sidebar-title{
-    font-size: 24px;
+.author-info{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
 }
 .avatar-image{
     width: 273px;
     height: 178px;
-    overflow: hidden;
+}
+.sidebar-title{
+    font-size: 24px;
+}
+.top-posts-info{
+    margin: 33px 0 0 0;
+    font-family: Arial, sans-serif;
+}
+.top-posts-list{
+    color: #b4ad9e;
+    padding: 0;
+    margin-top: 35px;
+}
+.top-post-item{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.post-name{
+    margin-bottom: 15px;
+    color: #626262;
+}
+.post-comments{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.footer{
+    width: 1200px;
+    height: 98px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 41px 0 41px 150px;
+    box-sizing: border-box;
+    list-style: none;
+}
+.footer-links{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    }
+.link-item{
+    margin-right: 20px;
+    display: inline-block;
+}
+.footer-link{
+    text-decoration: none;
+    color: #000000;
 }
