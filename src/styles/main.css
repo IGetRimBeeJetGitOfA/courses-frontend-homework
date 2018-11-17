@@ -6,13 +6,14 @@ body{
 .header{
     margin-top: 80px; 
 }
-.header, .posts{
+.header, .main{
     width: 965px;
     margin: 0 auto;
     padding-top: 80px;
 
 }
 
+/*!!! header styles */
 .header__logo-image{
     width: 157px;
     height: 31px;
@@ -84,3 +85,4 @@ body{
     cursor: pointer;    
 }
 
+/*!!! Posts styles  */
