@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.header, .posts{
+    width: 965px;
+    margin: 0 auto;
+}
+
+.header__logo-image{
+    width: 157px;
+    height: 31px;
+    margin-top: 81px;
+}
