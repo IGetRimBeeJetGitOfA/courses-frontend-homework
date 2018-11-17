@@ -1,16 +1,14 @@
 body{
     margin: 0;
-        background-color: #f7f9fc;
+    background-color: #f7f9fc;
 }
 
 .header{
-    margin-top: 80px; 
+    padding-top: 80px;
 }
 .header, .main{
     width: 965px;
     margin: 0 auto;
-    padding-top: 80px;
-
 }
 
 /*!!! header styles */
@@ -86,3 +84,119 @@ body{
 }
 
 /*!!! Posts styles  */
+.main{
+    padding-top: 65px;
+}
+
+.main__posts{
+    list-style: none;
+    background-color: white;
+    box-shadow: 0 0 25px rgba(0 , 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 0;
+} 
+
+.post-content{
+    padding: 40px 100px 0 100px;
+    font-family: Lato, sans-serif;
+    color: #000;
+}
+
+.post-date{
+    padding: 0;
+    font-size: 14px;
+    color: #bdbdbd;
+    font-weight: bold;
+}
+
+.post-title{
+    padding: 0;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative; 
+}
+
+.post-title:after{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    bottom: -40px;
+    left: 0;
+}
+
+.post-text{
+    padding: 0;
+    margin: 80px 0 0 0;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.post-button{
+    margin: 40px 0 0 33px;
+    display: inline-block;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #5c6bc0; 
+    font-weight: bold;
+    position: relative;
+}
+
+.post-button::after{
+    position: absolute;
+    content:'';
+    left: -33px;
+    right: -33px;
+    top: -12px;
+    bottom: -12px;
+}
+
+.post-button:hover:after{
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+
+.post-button:active:after{
+    border: 1px solid #5c6bc0;
+}
+
+.tags-list{
+    display: inline-block;
+    padding: 0;
+    text-align: right;
+    margin-bottom: 70px;
+    width: 590px;
+}
+
+.post-tag{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    font-size: 15px;
+    margin-left: 13px;
+    position: relative;
+}
+
+.post-tag:after{
+    position: absolute;
+    content:'';
+    left: 8;
+    width: 0;
+    bottom: 10px;
+    border-bottom: 1px solid #5c6bc0;
+}
+
+.post-tag:hover:after{
+    width: calc(100% - 8px);
+    transition: width 0.2s ease-in-out;
+}
+
+.post-tag:hover{
+    cursor: pointer;
+}
+
+.post-tag:active{
+    color: #5c6bc0;
+}
