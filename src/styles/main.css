@@ -1,14 +1,49 @@
 body{
     margin: 0;
+        background-color: #f7f9fc;
 }
 
+.header{
+    margin-top: 80px; 
+}
 .header, .posts{
     width: 965px;
     margin: 0 auto;
+    padding-top: 80px;
+
 }
 
 .header__logo-image{
     width: 157px;
     height: 31px;
-    margin-top: 81px;
+    display: inline-block;
+}
+
+.header__tabs{
+    list-style: none;
+    color: #626262;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.header__tabs-link{
+    display: inline-block;
+    margin-left: 32px;
+    padding: 10px 0 0 0;
+    vertical-align: top;
+}
+
+.header-search{
+    display: inline-block;
+    background: url(../images/search-icon.svg) center no-repeat;
+    width: 16px;
+    height: 16px;
 }
