@@ -23,22 +23,22 @@ body{
     list-style: none;
     color: #626262;
     font-size: 14px;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    width: 800px;
+    width: 730px;
     text-align: right;
     vertical-align: top;
     display: inline-block;
 }
 
-.header__tabs-link{
+.header__tabs-link, .header-search{
     display: inline-block;
-    margin-left: 32px;
+    margin-left: 45px;
     padding: 10px 0 0 0;
-    vertical-align: top;
+    position: relative;
 }
 
 .header-search{
@@ -47,3 +47,40 @@ body{
     width: 16px;
     height: 16px;
 }
+
+.header__tabs-link:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 3px; 
+    bottom: -8px;
+    background-color: #5c6bc0;
+}
+
+/* hover tab */
+.header__tabs-link:hover:after{
+    width: calc(100%);
+    transition: width 0.2s ease-in-out;
+}
+
+.header__tabs-link:hover{
+    cursor: pointer;
+}
+
+.header__tabs-link:active{
+    color: #5c6bc0;
+}
+
+/* inactive tab */
+.header__tabs-link:first-child{
+    color: #bdbdbd;
+    pointer-events: none;
+}
+
+/* seach icon hover */
+.header-search:hover{
+    background: url(../images/search-icon-hover.svg) center no-repeat;
+    cursor: pointer;    
+}
+
