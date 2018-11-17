@@ -71,6 +71,10 @@ body{
     color: #5c6bc0;
 }
 
+.header__tabs-link:active::after{
+    opacity: 0;
+}
+
 /* inactive tab */
 .header__tabs-link:first-child{
     color: #bdbdbd;
@@ -182,7 +186,7 @@ body{
 .post-tag:after{
     position: absolute;
     content:'';
-    left: 8;
+    right: 0;
     width: 0;
     bottom: 10px;
     border-bottom: 1px solid #5c6bc0;
@@ -191,6 +195,7 @@ body{
 .post-tag:hover:after{
     width: calc(100% - 8px);
     transition: width 0.2s ease-in-out;
+    color: #5c6bc0;
 }
 
 .post-tag:hover{
@@ -199,4 +204,8 @@ body{
 
 .post-tag:active{
     color: #5c6bc0;
+}
+
+.post-tag:active:after{
+    opacity: 0;
 }
