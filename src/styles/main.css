@@ -94,17 +94,22 @@ body{
 
 .main__posts{
     list-style: none;
-    background-color: white;
-    box-shadow: 0 0 25px rgba(0 , 0, 0, 0.1);
-    margin-bottom: 30px;
     padding: 0;
 } 
 
 .post-content{
-    padding: 40px 100px 0 100px;
+    box-shadow: 0 0 25px rgba(0 , 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 30px;
+    /* padding: 0 100px 0 100px; */
     font-family: Lato, sans-serif;
     color: #000;
     position: relative;
+}
+
+.post-image{
+    width: 965px;
+    height: 536px;
 }
 
 .post-category{
@@ -133,7 +138,7 @@ body{
 }
 
 .post-date{
-    padding: 0;
+    padding: 40px 100px 0 100px;
     font-size: 14px;
     color: #bdbdbd;
     font-weight: bold;
@@ -141,7 +146,7 @@ body{
 
 .post-title{
     padding: 0;
-    margin-top: 20px;
+    margin: 20px 100px 0 100px;
     font-size: 40px;
     font-weight: bold;
     position: relative; 
@@ -158,13 +163,13 @@ body{
 
 .post-text{
     padding: 0;
-    margin: 80px 0 0 0;
+    margin: 80px 100px 0 100px;
     font-size: 17px;
     line-height: 1.8;
 }
 
 .post-button{
-    margin: 40px 0 0 33px;
+    margin: 40px 0 0 133px;
     display: inline-block;
     padding: 0;
     text-transform: uppercase;
