@@ -177,6 +177,22 @@ body{
     line-height: 1.8;
 }
 
+.block-text{
+    margin: 35px 100px 35px 126px;
+    position: relative;
+    color: #9c9c9c;
+}
+
+.block-text:after{
+    content: '';
+    position: absolute;
+    top: -4px;
+    width: 3px;
+    left: -26px;
+    height: calc(100% + 8px);
+    background-color: #eee;
+}
+
 .post-button{
     margin: 40px 0 0 133px;
     display: inline-block;
@@ -249,4 +265,13 @@ body{
 
 .post-tag:active:after{
     opacity: 0;
+}
+
+.link-in-text{
+    color: blue;
+}
+
+.post-image3{
+    float: left;
+    margin: 0 0 0 100px;
 }
