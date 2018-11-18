@@ -281,7 +281,7 @@ body{
 .footer{
     width: auto;
     height: 530px;
-    background-color: #5360ad;
+    background-color: #5c6bc0;
     padding: 65px 0 0 0;
     text-align: center;
 }
@@ -289,4 +289,64 @@ body{
 .footer__logo-image{
     width: 136px;
     height: 27px;
+}
+
+.footer__tabs{
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.footer__tabs-link{
+    display:inline-block;
+    margin-left: 45px;
+    position: relative;
+    vertical-align: calc(top - 4px);
+}
+
+.footer_tabs-search{
+    display: inline-block;
+    margin-left: 45px;
+}
+.footer-search{
+    display: inline-block;
+    background: url(../images/footer-search.svg) center no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__tabs-link:first-child{
+    color: #a9afdb;
+    pointer-events: none;
+}
+
+.footer__tabs-link:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 3px; 
+    bottom: -8px;
+    background-color: #fff;
+}
+
+.footer__tabs-link:hover{
+    cursor: pointer;
+}
+
+.footer__tabs-link:hover:after{
+    width: 100%;
+    transition: width 0.2s ease-in-out;
+}
+
+.footer-search:hover{
+    background-color: #5360ad;
+    width: 24px;
+    height: 24px;
 }
