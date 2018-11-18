@@ -89,7 +89,8 @@ body{
 
 /*!!! Posts styles  */
 .main{
-    padding-top: 65px;
+    margin-top: 65px;
+    margin-bottom: 80px;
 }
 
 .main__posts{
@@ -274,4 +275,18 @@ body{
 .post-image3{
     float: left;
     margin: 0 0 0 100px;
+}
+
+/* footer */
+.footer{
+    width: auto;
+    height: 530px;
+    background-color: #5360ad;
+    padding: 65px 0 0 0;
+    text-align: center;
+}
+
+.footer__logo-image{
+    width: 136px;
+    height: 27px;
 }
