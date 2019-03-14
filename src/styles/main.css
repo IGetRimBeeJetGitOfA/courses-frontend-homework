@@ -347,9 +347,9 @@ body{
 }
 
 .footer-text{
-    margin-top: 45px;
-    padding: 45px 100px 45px 100px;
-    font-size: 20px;
+    margin: 45px 0 0 0;
+    padding: 45px 325px 45px 325px;
+    font-size: 13px;
     font-family: Lato, sans-serif;
     font-style: italic;
     color: #96a0d6;
@@ -358,8 +358,9 @@ body{
 }
 
 .footer-copyrigh-text, .footer-copyrigh-team{
+    margin: 0;
     padding: 45px 0 45px 0;
-    font-size: 20px;
+    font-size: 14px;
     font-family: Lato, sans-serif;
     font-style: italic;
     text-align: center;
@@ -372,4 +373,18 @@ body{
     margin: 0;
     display: inline-block;
     color: #eee;
+}
+
+.footer__social-logos{
+    margin-top: 37px;
+    padding: 0;
+}
+
+.social-logo{
+    padding: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-left: 45px;
+    text-align: center;
 }
