@@ -28,15 +28,15 @@ body{
     padding: 0;
     width: 800px;
     text-align: right;
-    vertical-align: top;
     display: inline-block;
 }
 
 .header__tabs-link, .header-search{
     display: inline-block;
     margin-left: 45px;
-    padding: 10px 0 0 0;
+    padding: 0;
     position: relative;
+    vertical-align: top;
 }
 
 .header-search{
