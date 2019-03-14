@@ -100,7 +100,6 @@ body{
     box-shadow: 0 0 25px rgba(0 , 0, 0, 0.1);
     background-color: white;
     margin-bottom: 30px;
-    /* padding: 0 100px 0 100px; */
     font-family: Lato, sans-serif;
     color: #000;
     position: relative;
@@ -338,6 +337,9 @@ body{
     transition: width 0.2s ease-in-out;
 }
 
+.footer__tabs-link:active:after{
+    opacity: 0;
+}
 .footer-search:hover{
     background-color: #5360ad;
     width: 24px;
@@ -355,3 +357,19 @@ body{
     border-top: 2px solid #5765b5;
 }
 
+.footer-copyrigh-text, .footer-copyrigh-team{
+    padding: 45px 0 45px 0;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: #96a0d6;
+    display: inline-block;
+}
+
+.footer-copyrigh-team{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    color: #eee;
+}
